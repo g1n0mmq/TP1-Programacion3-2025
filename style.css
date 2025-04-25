@@ -10,7 +10,7 @@
     right: 10px;
     height: 160px;
     width: 300px;
-    background-color: #f9f9f9;
+    background-color: #8f98b6;
 }
 
 .contenedor img {
@@ -40,21 +40,21 @@
     margin-top: 5px;
 }
 #titulo-intro {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     width: 300px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-bottom: 20px;
     margin: 10px 0 20px 10px;
-    width: 100%;
+    width: 85%;
     margin-top: 30px;
 }
 .parrafo{
-    font-size: 1.8em;
-    text-align: left;
-    width: 75%;
-    margin-left: 0px;
+    font-size: 1.4em;
+    text-align: center;
+    width: 50%;
+    margin-left: 240px;
     margin-bottom: auto;
     margin-top: 30px;
 }
@@ -62,10 +62,16 @@ span {
     font-weight: bold;
 }
 .contacto {
-    font-size: 1.8em;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.4em;
     text-align: left;
-    width: 75%;
-    margin: 30px 0;
+    width: 25%;
+    margin: 0;
+    background-color: rgba(109, 132, 153, 0.8); /* Fondo semi-transparente */
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .contacto img {
@@ -80,7 +86,21 @@ span {
     color: #000;
     margin-right: 20px;
 }
-
 p span {
     font-weight: bold;
+}
+@font-face {
+    font-family: 'Sansation';
+    src: url('fonts/Sansation-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url('imagenes/fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Sansation', sans-serif;
+    color: #222;
 }
