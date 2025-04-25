@@ -50,13 +50,11 @@
     width: 100%;
     margin-top: 30px;
 }
-#contenido{
-    font-size: 1.6em;
+.parrafo{
+    font-size: 1.8em;
     text-align: left;
-    width: 300px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin: 10px 0 20px 10px;
-    width: 100%;
+    width: 75%;
+    margin-left: 0px;
+    margin-bottom: auto;
     margin-top: 30px;
 }
